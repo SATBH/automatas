@@ -1,2 +1,2 @@
 console.log("Hello world")
-console.log(fetch("./some.js"))
+let x = fetch("./some.js").then(resp => console.log(resp))
