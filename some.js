@@ -1,2 +1,2 @@
 console.log("Hello world")
-fetch("./")
+console.log(fetch("./some.js"))
